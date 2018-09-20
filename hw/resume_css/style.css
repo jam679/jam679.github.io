@@ -18,7 +18,7 @@ a:hover {
 .mainp {
   color: black;
 font-family: serif;
-padding: 25pt
+padding: 50pt
 }
 
 #maintitle {
@@ -28,4 +28,12 @@ padding: 25pt
 }
 h2 {
   font-family: 'Cedarville Cursive', cursive;
+}
+
+.bullets {
+list-style-type: circle;
+}
+
+.days {
+  color: purple;
 }

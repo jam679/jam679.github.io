@@ -1,0 +1,30 @@
+body {
+  background-color: lavender;
+  background-image: url("images/flora1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+a {
+  color: purple;
+  font-family: serif;
+}
+
+a:hover {
+  font-weight: bold;
+
+}
+.mainp {
+  color: black;
+font-family: serif;
+}
+
+#maintitle {
+  color: black;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 40pt;
+}
+h2 {
+  font-family: 'Cedarville Cursive', cursive;
+}

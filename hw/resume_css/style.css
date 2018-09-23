@@ -9,11 +9,12 @@ body {
 a {
   color: purple;
   font-family: serif;
+  text-decoration: none;
 }
 
 a:hover {
   font-weight: bold;
-
+color: green;
 }
 .mainp {
   color: black;
@@ -28,6 +29,7 @@ padding: 50pt
 }
 h2 {
   font-family: 'Cedarville Cursive', cursive;
+  font-size: 25pt;
 }
 
 .bullets {
@@ -36,4 +38,9 @@ list-style-type: circle;
 
 .days {
   color: purple;
+}
+
+.addy {
+  color: black;
+  font-size: 12pt;
 }

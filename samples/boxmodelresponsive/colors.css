@@ -1,0 +1,31 @@
+body {}
+
+.wrapper {
+  background: #CCCCCC;
+}
+
+nav {
+  background: pink;
+}
+
+.navlinks {}
+
+.navlinks li {}
+
+.navlinks a {
+  color: white;
+}
+
+.left {
+  background: skyblue;
+}
+
+.right {
+  background: #333333;
+  color: white;
+}
+
+footer {
+  background: black;
+  color: white;
+}

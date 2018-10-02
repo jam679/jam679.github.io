@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  display: block;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+nav {
+  display: block;
+}
+
+.navlinks {
+  list-style-type: none;
+  height: 50px;
+}
+
+.navlinks li {
+  display: block;
+  text-align: center;
+  font-size: 36px;
+}
+
+.navlinks a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px
+}
+
+.left, .right {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  margin: 20px;
+}
+
+footer {
+  display: block;
+  padding: 20px;
+}

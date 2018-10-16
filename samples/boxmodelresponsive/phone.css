@@ -5,20 +5,21 @@ body {
 
 .wrapper {
   display: block;
-  min-height: 500px;
+box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 1000px;
+  padding: 20px;
+
 }
 
 nav {
-  display: block;
+
 }
 
 .navlinks {
   list-style-type: none;
-  height: 50px;
+
 }
 
 .navlinks li {
@@ -38,6 +39,8 @@ nav {
   width: 100%;
   padding: 30px;
   margin: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 footer {

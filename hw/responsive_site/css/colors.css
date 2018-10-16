@@ -1,0 +1,17 @@
+body {
+  background: pink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navlinks {
+
+}
+.wrapper {
+  background: pink;
+}
+li {
+  font-style: italic;
+}

@@ -32,14 +32,12 @@ height: 50px;
 }
 .left {
   display: inline-block;
-
   width: 20%;
   min-height: 500px;
-  margin-left: 10px;
-  margin-bottom: 10px;
   font-size: 12px;
   padding: 30px;
-  margin: 20px;
+  height: 100%;
+  box-sizing: border-box;
 }
 .right {
   display: inline-block;
@@ -47,11 +45,11 @@ height: 50px;
   width: 59%;
   min-height: 500px;
   padding: 30px;
-  margin: 20px;
-  margin-left: 0px;
+  box-sizing: border-box;
+  height: 100%;
 }
 footer {
   display: block;
-  
+
   padding: 20px;
 }

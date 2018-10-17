@@ -1,17 +1,59 @@
 body {
-  background: pink;
-  background-repeat: no-repeat;
+  background-color: lavender;
+  background-image: url("images/flora1.jpg");
+  background-position: center;
   background-size: cover;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+  background-repeat: no-repeat;
+  width: 100%;
 }
-.navlinks {
+.navlinks li {
+background: skyblue;
+background-position: center;
+font-family: 'Montserrat', sans-serif;
+
 
 }
-.wrapper {
-  background: pink;
+
+.left, .right {
+
+background: pink;
+font-family: 'Notable', sans-serif;
 }
-li {
-  font-style: italic;
+
+
+}
+ul, li {
+
+
+}
+.photo {
+
+}
+a {
+  color: white;
+}
+a:hover {
+  color: black;
+}
+.pirates {
+
+}
+.Home {
+
+  font-family: 'Notable', sans-serif;
+}
+.prince {
+
+}
+h1 {
+  
+}
+h2 {
+
+font-family: 'Montserrat', sans-serif;
+
+}
+p {
+  background-color: white;
+
 }

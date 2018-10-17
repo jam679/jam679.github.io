@@ -1,17 +1,81 @@
 body {
-  background:url("images/freshmilk.png");
-  background-color: pink;
+  background-color: lavender;
+  background-image: url("images/flora1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
-.wrapper {
-
+.navlinks li {
+background: skyblue;
+background-position: center;
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+list-style-type: none;
+display: inline;
+padding: 80px;
+width: 100%;
+text-align: center;
+margin-bottom: 10px;
 }
 
-.navlinks {
+.left, .right {
+display: block;
+padding-top: 70px;
+width: 100%;
+border: 10px solid white;
+margin-bottom: 20px;
+margin-left: 50px;
+background: pink;
+font-size: 50px;
+font-family: 'Notable', sans-serif;
+}
+
 
 }
-.left{
+ul, li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 
 }
-.right {
+.photo {
+  border-radius: 180px;
+  display: inline;
+}
+a {
+  color: white;
+text-decoration: none;
+list-style-type: none;
+font-size: 25px;
+}
+a:hover {
+  color: black;
+}
+.pirates {
+  display: inline-block;
+  border-radius: 180px;
+}
+.Home {
+  padding: 60px;
+  align-items: center;
+  font-family: 'Notable', sans-serif;
+}
+.prince {
+  border-radius: 180px;
+  display: inline-block;
+}
+h1 {
+  padding: 30px;
+}
+h2 {
+  padding-top: 70px;
+font-family: 'Montserrat', sans-serif;
 
+}
+p {
+  background-color: white;
+  padding: 30px;
 }

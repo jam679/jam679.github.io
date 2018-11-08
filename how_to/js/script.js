@@ -62,9 +62,18 @@ $('#prev').on('click' , function(){
   if(currentstep != totalsteps){
     $('#next').show();
   }
+$('.from img').on('mouseover',function()
+{img = $(this).attr('src');
+console.log(img);
+$('.to').html('<img src="' + img + '">');
+});
   // if the current step is 1, we are on the first slide so.... we hide the previous button if(currentstep == 1) {
 
     $('#prev').hide();
-
+    $('#finish').on('click', function(){
+      $('.steps li, .controls, #prev').hide();
+      $('.end').fadeIn(1000);
+      $('h1').html('Go Be #BookedAndBlessed');
+    });
 $("end")
 });
